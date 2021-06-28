@@ -6,11 +6,11 @@
 
   <groupId>org.alexyan</groupId>
   <artifactId>atool</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.1</version>
 
   <name>atool</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://github.com/yan42685/atool</url>
 
   <properties>
     <maven.compiler.source>8</maven.compiler.source>
