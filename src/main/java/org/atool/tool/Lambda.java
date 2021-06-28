@@ -1,4 +1,4 @@
-package org.tool;
+package org.atool.tool;
 
 import java.util.Collection;
 import java.util.Optional;

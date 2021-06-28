@@ -1,4 +1,4 @@
-package org.tool;
+package org.atool.tool;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ExecutorService;

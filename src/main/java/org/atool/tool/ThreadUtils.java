@@ -1,4 +1,4 @@
-package org.tool;
+package org.atool.tool;
 
 public class ThreadUtils {
     public static void sleepSeconds(long seconds) {

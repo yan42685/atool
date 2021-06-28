@@ -1,4 +1,4 @@
-package org.tool;
+package org.atool.tool;
 
 import java.lang.reflect.Method;
 import java.util.Collection;

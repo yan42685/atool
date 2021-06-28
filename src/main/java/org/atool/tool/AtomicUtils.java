@@ -1,4 +1,4 @@
-package org.tool;
+package org.atool.tool;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;

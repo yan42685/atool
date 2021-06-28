@@ -1,4 +1,4 @@
-package org.tool;
+package org.atool.tool;
 
 
 import org.yaml.snakeyaml.Yaml;

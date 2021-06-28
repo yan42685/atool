@@ -1,4 +1,4 @@
-package org.tool;
+package org.atool.tool;
 
 public class StringUtils {
 }
