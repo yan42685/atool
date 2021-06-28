@@ -7,7 +7,6 @@
     <groupId>io.github.yan42685</groupId>
     <artifactId>atool</artifactId>
     <version>1</version>
-
     <name>atool</name>
     <description>personal toolkit</description>
     <url>https://github.com/yan42685/atool</url>
@@ -31,6 +30,7 @@
             <organization>alexyan</organization>
         </developer>
     </developers>
+<!--    以上信息为发布到Maven中央仓库必备的 -->
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
