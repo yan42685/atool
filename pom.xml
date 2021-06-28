@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.alexyan</groupId>
@@ -8,7 +9,9 @@
     <version>1.0</version>
 
     <name>atool</name>
+    <description>personal toolkit</description>
     <url>https://github.com/yan42685/atool</url>
+    <packaging>jar</packaging>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -19,8 +22,8 @@
         <connection>scm:git:https://github.com/yan42685/atool.git</connection>
         <developerConnection>scm:git:https://github.com/yan42685/atool.git</developerConnection>
         <url>git:https://github.com/yan42685/atool.git</url>
-      <tag>atool-1.0</tag>
-  </scm>
+        <tag>atool-1.0</tag>
+    </scm>
     <developers>
         <developer>
             <name>alexyan</name>
@@ -113,11 +116,11 @@
             <id>release</id>
             <distributionManagement>
                 <snapshotRepository>
-                    <id>oss</id>
+                    <id>sonatype-nexus-snapshots</id>
                     <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
                 </snapshotRepository>
                 <repository>
-                    <id>oss</id>
+                    <id>sonatype-nexus-staging</id>
                     <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
                 </repository>
             </distributionManagement>
@@ -153,15 +156,15 @@
                             </execution>
                         </executions>
                     </plugin>
-<!--                    用于自动执行发布阶段-->
+                    <!--                    用于自动执行发布阶段-->
                     <plugin>
                         <groupId>org.sonatype.plugins</groupId>
                         <artifactId>nexus-staging-maven-plugin</artifactId>
                         <version>1.6.8</version>
                         <extensions>true</extensions>
                         <configuration>
-<!--                        和maven配置settings.xml中的server标签的id一致-->
-                            <serverId>oss</serverId>
+                            <!--                        和maven配置settings.xml中的server标签的id一致-->
+                            <serverId>sonatype-nexus-staging</serverId>
                             <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                             <autoReleaseAfterClose>true</autoReleaseAfterClose>
                         </configuration>
