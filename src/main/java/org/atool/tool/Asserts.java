@@ -26,8 +26,8 @@ public class Asserts {
         }
     }
 
-    public static <T> void notEmpty(Iterable<T> collection) {
-        notEmpty(collection, "集合为空断言失败");
+    public static <T> void notEmpty(Iterable<T> iterable) {
+        notEmpty(iterable, "集合为空断言失败");
     }
 
     public static void notEmpty(String str, String message) {

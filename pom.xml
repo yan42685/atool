@@ -6,7 +6,7 @@
 
     <groupId>io.github.yan42685</groupId>
     <artifactId>atool</artifactId>
-    <version>1.0.0.1</version>
+    <version>1.0.0.3</version>
     <name>atool</name>
     <description>personal toolkit</description>
     <url>https://github.com/yan42685/atool</url>
