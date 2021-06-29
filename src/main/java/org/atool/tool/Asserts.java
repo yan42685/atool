@@ -3,6 +3,9 @@ package org.atool.tool;
 import java.lang.reflect.Method;
 import java.util.Collection;
 
+/**
+ * 断言结果
+ */
 public class Asserts {
     public static void notNull(Object object) {
         notNull(object, "非null断言失败");
